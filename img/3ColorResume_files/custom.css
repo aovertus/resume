@@ -1,0 +1,17 @@
+.skills img{
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background-color:white;
+}
+
+#education .logo-experience{
+  width: 30px;  
+  border-radius: 3px;
+  margin-right: 10px;
+  background-color:white;
+}
+
+.experience-description{
+  list-style-type: square;
+}

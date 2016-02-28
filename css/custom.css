@@ -1,0 +1,77 @@
+html{
+}
+body{
+}
+
+a{
+  color:rgb(42, 166, 200);
+}
+
+.skills img{
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background-color:white;
+}
+
+#education .logo-experience{
+  width: 30px;  
+  border-radius: 3px;
+  margin-right: 10px;
+  background-color:white;
+}
+
+ul.experience-description{
+  padding-left:15px;
+}
+
+ul.experience-description li{
+  float:initial!important;
+}
+
+.experience-description h4{
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#education p{
+  font-size: 1.1em!important;
+  margin-top: 0px!important;
+  padding: 0px!important;
+  margin-bottom: 2px!important;
+}
+
+.description{
+  padding-bottom: 5px!important;
+}
+
+.hobby.game:before{
+  content: "\f11b";
+}
+
+.hobby.paintball:before{
+  content: "\f140";
+}
+
+.hobby.pets:before{
+  content:"\f1b0";
+}
+
+.download-section{
+  text-align: center;
+}
+
+.download-section a{
+  background-color: #FA9433;
+  border-color: #FFB167;
+}
+
+.download-section a:hover{
+  background-color: #FA9433;
+  border-color: #FFB167;
+}
+
+.download-section a:focus{
+  background-color: #FA9433;
+  border-color: #FFB167;
+}

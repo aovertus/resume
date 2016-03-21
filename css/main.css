@@ -62,17 +62,21 @@ PHOTO (AVATAR)
   text-transform: uppercase;
   letter-spacing: -1px;
 }
-#text-header h1::first-line{
+/*#text-header h1::first-line{
   font-size: 1.5em;
   letter-spacing: -4px;
   font-weight: 800;
   line-height: 1.5em;
-}
+}*/
 #text-header h1 span{
   color: #F39135;;
 }
 #text-header h1 sup{
   opacity: 0.5;
+}
+
+#text-header .function{
+  color:rgb(42, 166, 200);
 }
 #text-header:after{
   width: 100%;
@@ -296,19 +300,42 @@ SKILLS
 /*******************************************
 LANGUAGES
 *******************************************/
-#language-skills .skill{
+.language-skills .skill{
   font-size: 1.3em;
   margin: 10px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
-#language-skills .skill .icons{
+.language-skills .skill .icons{
   width: 111px;
   height: 14px;
   background: url(../img/star-grey.png) no-repeat;
 }
-#language-skills .skill .icons-red{
+.language-skills .skill .icons-red{
   background: url(../img/star-red.png) no-repeat;
+}
+
+.scm i{
+  font-size:26px;
+  color:rgb(42, 166, 200);
+}
+
+.scm i:first-child{
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+.scm i:last-child{
+  padding-left: 7px;
+}
+
+.fa-windows{
+  font-size: 24px!important;
+  padding-left: 5px!important;
+}
+
+.fa-apple{
+  font-size:24px!important;
 }
 /*******************************************
 HOBBIES

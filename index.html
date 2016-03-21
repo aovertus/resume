@@ -20,7 +20,7 @@
               <img src="img/profile.jpg" alt="avatar">
             </div>
             <div id="text-header">
-              <h1>Hi,<br> my name is <span>Alexandre Overtus</span><sup></sup> and this is my resume</h1>
+              <h1>Hi, my name is <span>Alexandre Overtus</span>,<br/><span class="function">full stack developer</span> and this is my resume</h1>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2>About Me</h2>
-            <p>My source code was uploaded in 1993. I'm a young web developer who wants to improve his current skills and learn new ones. I like to provide my input to various projects. I recently decided to leave Belgium for one year and discover the daily life in Montréal.</p>
+            <p>My source code was uploaded in 1993. I'm a young web developer who wants to improve his current skills and find new ones. I like make my contribution to various projects. I recently decide to leave Belgium for one year and discover how is day to day living in Montréal.</p>
          
 
 
@@ -60,6 +60,9 @@
                       </p>
                     </li>
                   </ul>
+                  <div class="reference">
+                    Reference: Thomas Cavalier (Project Manager) +32 492.46.78.00 / tcavalier@adneom.com
+                  </div>
                 </div>
               </li>
               <li>
@@ -73,6 +76,9 @@
                     <li><p>Part of the CRM team.</p></li>
                     <li><p>Support & bug fixing on each application.</p></li>
                   </ul>
+                  <div class="reference">
+                    Reference: Jonathan Schockaert (CEO) +32 472.64.18.72 / jonathan@listminut.com
+                  </div>
                 </div>
               </li>
               <li>
@@ -130,30 +136,30 @@
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
               <div class="title only pull-right"><a href="mailto:a.overtus@live.be">a.overtus@live.be</a></div>
             </div>
-            <div class="contact-item">
+<!--             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
               <div class="title pull-right">Github</div>
               <div class="description pull-right"><a href="https://github.com/aovertus" target="_blank">https://github.com/aovertus</a></div>
-            </div>
+            </div> -->
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
               <div class="title pull-right">Linkedin</div>
               <div class="description pull-right"><a href="https://www.linkedin.com/in/alexandre-overtus-b223127b" target="_blank">https://www.linkedin.com/in/alexandre-overtus</a></div>
             </div>
-            <div class="contact-item">
+<!--             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
               <div class="title pull-right">Facebook</div>
               <div class="description pull-right"><a href="https://www.facebook.com/alexandre.overtus" target="_blank">https://www.facebook.com/alexandre.overtus</a></div>
-            </div>
-            <div class="contact-item">
+            </div> -->
+<!--             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-bitbucket fa-fw"></span></div>
               <div class="title pull-right">Bitbucket</div>
               <div class="description pull-right"><a href="https://bitbucket.org/aovertus" target="_blank">https://bitbucket.org/aovertus</a></div>
-            </div>
+            </div> -->
           </div>
           <!-- SKILLS -->
           <div class="box">
-            <h2>Skills</h2>
+            <h2>Programming languages</h2>
             <div class="skills">
               <div class="item-skills" data-percent="100" style="width: 374px;"><img src="img/html.jpg"/>HTML5 (+haml)</div>
               <div class="item-skills" data-percent="85" style="width: 280.5px;"><img src="img/rails.png"/>Ruby On Rails</div>
@@ -170,10 +176,47 @@
               </div>
             </div>
           </div>
+          <div class="box">
+            <h2> Skills </h2>
+            <div class="language-skills">
+              <div class="skill">SCM 
+                <div class="pull-right scm">
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-bitbucket"></i>
+                </div>
+              </div>
+              <div class="skill">OS
+                <div class="pull-right scm">
+                  <i class="fa fa-apple"></i>
+                  <i class="fa fa-windows"></i>
+                </div>
+              </div>
+              <div class="skill">Database
+                <div class="pull-right">
+                  PostgreSQL / MySQL
+                </div>
+              </div>              
+              <div class="skill">Business Knowledge
+                <div class="pull-right">
+                  SEO / Customer Communication
+                </div>
+              </div>               
+              <div class="skill">Design Tools
+                <div class="pull-right">
+                  Photoshop
+                </div>
+              </div> 
+              <div class="skill">Workflow tools
+                <div class="pull-right">
+                  Trello / Jira 
+                </div>
+              </div>               
+            </div>
+          </div>
           <!-- LANGUAGES -->
           <div class="box">
             <h2>Languages</h2>
-            <div id="language-skills">
+            <div class="language-skills">
               <div class="skill">French <div class="icons pull-right"><div style="width: 100%; height: 14px;" class="icons-red"></div></div></div>
               <div class="skill">English <div class="icons pull-right"><div style="width: 60%; height: 14px;" class="icons-red"></div></div></div>
             </div>
@@ -187,7 +230,7 @@
           </div>
           <div class="box download-section">
             <hr/>
-            <a href="files/CV_Alexandre_Overtus(EN).docx" class="btn btn-primary btn-download" >Download my resume</a>
+            <a href="files/CV_Alexandre_Overtus(EN).pdf" class="btn btn-primary btn-download" >Download my resume</a>
           </div>
         </div>
       </div>
@@ -198,15 +241,5 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- SCRIPTS -->
     <script src="js/scripts.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-43053887-3', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-  </body>
-</html>
+  
+</body></html>

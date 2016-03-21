@@ -21,6 +21,12 @@ a{
   background-color:white;
 }
 
+#education .description .reference{
+  margin-top: 10px;
+  font-size: 11px;
+  font-style: italic;
+}
+
 ul.experience-description{
   padding-left:15px;
 }

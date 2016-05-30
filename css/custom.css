@@ -7,6 +7,14 @@ a{
   color:rgb(42, 166, 200);
 }
 
+.goc span{
+  font-size:12px;
+}
+
+.goc img{
+  height:30px;
+}
+
 .skills img{
   height: 20px;
   border-radius: 3px;

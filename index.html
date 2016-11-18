@@ -20,7 +20,7 @@
               <img src="img/profile.jpg" alt="avatar">
             </div>
             <div id="text-header">
-              <h1>Hi, my name is <span>Alexandre Overtus</span>,<br/><span class="function">full stack developer</span> and this is my resume</h1>
+              <h1>Hi, my name is <span>Alexandre</span>,<br/><span class="function">Ruby on Rails enthusiast</span> and this is my resume</h1>
             </div>
           </div>
         </div>
@@ -30,16 +30,35 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2>About Me</h2>
-            <p>My source code was uploaded in 1993. I'm a young web developer who wants to improve his current skills and find new ones. I like make my contribution to various projects. I recently decide to leave Belgium for one year and discover how is day to day living in Montréal.</p>
-         
-
-
-
+            <p>My source code was uploaded in 1993. I'm a developer who wants to improve his skills over years and learn new technologies. I like make my contribution to various projects. I recently decide to leave Belgium for one year and discover how is day to day living in Montréal.</p>
           </div>
           <!-- Experience -->
           <div class="box">
             <h2>Experience</h2>
             <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">Juillet 2016</div>
+                <div class="description pull-right">
+                  <h3><img class="logo-experience" src="img/koolicar.png"/>Koolicar: RoR Developer</h3>
+                  <ul class="experience-description">
+                    <h4>Koolicar Web</h4>
+                    <li> Maintain & improve current code base </li>
+                    <li> Conception & development of new features </li>
+                    <li> Teamwork & Code review </li>
+                  </ul>
+                  <ul class="experience-description">
+                    <h4>Koolicar Mobile Api & Partner </h4>
+                    <li> Maintain current endpoints </li>
+                    <li> Conception & development of new endpoints </li>
+                    <li> Work with Android & iOS mobile team </li>
+                    <li> Build specs with Rspec & FactoryGirl </li>
+                    <li> Write documentation (API Blueprint)</li>
+                  </ul>
+                  <div class="reference">
+                    Technical environment : RoR / jQuery / BootStrap
+                  </div>
+                </div>
+              </li>
               <li>
                 <div class="year pull-left">OCT 2015</div>
                 <div class="description pull-right">
@@ -70,7 +89,7 @@
               <li>
                 <div class="year pull-left">SEPT 2014</div>
                 <div class="description pull-right">
-                  <h3><img class="logo-experience" src="img/listminut.png"/>Listminut: Junior Web Developer</h3>
+                  <h3><img class="logo-experience" src="img/listminut.png"/>Listminut: Junior RoR Developer</h3>
                   <ul class="experience-description">
                     <li><p>Development of a web application for AG Real Estate, this application is used to offer online concierge services to employees of their buildings.</p></li>
                     <li><p>Maintain Listminut web application and development of new features.</p></li>
@@ -87,16 +106,16 @@
                 <div class="year pull-left">JUNE 2014</div>
                 <div class="description pull-right">
                   <h3><img class="logo-experience" src="img/espheres.jpg"/>Graduate Thesis</h3>
-                  <p>I developed an application for eSpheres, which is a spin-off of Solvay Group. By using
+<!--                   <p>I developed an application for eSpheres, which is a spin-off of Solvay Group. By using
                     this application, users can manage safety datasheets of chemical products and send
-                    this information in a SAP system.</p>
+                    this information in a SAP system.</p> -->
                 </div>
               </li>
               <li>
                 <div class="year pull-left">FEB<br/> 2014</div>
                 <div class="description pull-right">
                   <h3><img class="logo-experience" src="img/onetec.png"/>Internship</h3>
-                  <p>I worked as an intern at OneTec Group I was in charge of preparing –configuring applications for their events and I also worked as technical network support on these events. Moreover, I developed a PHP application to manage OneTec events calendar.</p>
+                  <!-- <p>I worked as an intern at OneTec Group I was in charge of preparing –configuring applications for their events and I also worked as technical network support on these events. Moreover, I developed a PHP application to manage OneTec events calendar.</p> -->
                 </div>
               </li>
             </ul>
@@ -163,7 +182,7 @@
           <div class="box">
             <h2>Programming languages</h2>
             <div class="skills">
-              <div class="item-skills" data-percent="100" style="width: 374px;"><img src="img/html.jpg"/>HTML5 (+haml)</div>
+              <div class="item-skills" data-percent="100" style="width: 374px;"><img src="img/html.jpg"/>Html5 - Haml</div>
               <div class="item-skills" data-percent="85" style="width: 280.5px;"><img src="img/rails.png"/>Ruby On Rails</div>
               <div class="item-skills" data-percent="78" style="width: 280.5px;"><img src="img/javascript.png"/>JavaScript</div>
               <div class="item-skills" data-percent="70" style="width: 299.2px;"><img src="img/angularjs.png"/>AngularJS</div>
@@ -179,18 +198,11 @@
             </div>
           </div>
           <div class="box">
-            <h2> Skills </h2>
+            <h2> RoR Tools </h2>
             <div class="language-skills">
-              <div class="skill">SCM 
-                <div class="pull-right scm">
-                  <i class="fa fa-github"></i>
-                  <i class="fa fa-bitbucket"></i>
-                </div>
-              </div>
-              <div class="skill">OS
-                <div class="pull-right scm">
-                  <i class="fa fa-apple"></i>
-                  <i class="fa fa-windows"></i>
+              <div class="skill">Testing
+                <div class="pull-right">
+                  Rspec + FactoryGirl
                 </div>
               </div>
               <div class="skill"> AWS
@@ -198,26 +210,52 @@
                   S3 / SNS
                 </div>
               </div>
+              <div class="skill">Background Processing
+                <div class="pull-right">
+                  Redis + Sidekiq
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2> General Skills </h2>
+            <div class="language-skills">
+              <div class="skill">SCM
+                <div class="pull-right scm">
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-bitbucket"></i>
+                </div>
+              </div>
               <div class="skill">Database
                 <div class="pull-right">
                   PostgreSQL / MySQL
                 </div>
-              </div>              
+              </div>
+              <div class="skill">Methodology
+                <div class="pull-right">
+                   Agile / Scrum
+                </div>
+              </div>
+              <div class="skill">Workflow tools
+                <div class="pull-right">
+                   Jira / Redmine / Trello
+                </div>
+              </div>
+              <div class="skill">Error Tracking
+                <div class="pull-right">
+                   Rollbar / Bugsnag
+                </div>
+              </div>
+              <div class="skill">Documentation
+                <div class="pull-right">
+                   API Blueprint
+                </div>
+              </div>
               <div class="skill">Business Knowledge
                 <div class="pull-right">
                   SEO / Customer Communication
                 </div>
-              </div>               
-              <div class="skill">Design Tools
-                <div class="pull-right">
-                  Photoshop
-                </div>
-              </div> 
-              <div class="skill">Workflow tools
-                <div class="pull-right">
-                  Trello / Jira 
-                </div>
-              </div>               
+              </div>
             </div>
           </div>
           <!-- LANGUAGES -->

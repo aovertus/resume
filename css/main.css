@@ -320,14 +320,14 @@ LANGUAGES
   color:rgb(42, 166, 200);
 }
 
-.scm i:first-child{
+/* .scm i:first-child{
     padding-right: 10px;
     border-right: 2px solid black;
 }
 
 .scm i:last-child{
   padding-left: 7px;
-}
+} */
 
 .fa-windows{
   font-size: 24px!important;

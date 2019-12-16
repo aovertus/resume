@@ -1,29 +1,10 @@
-var callback = function(){
-  $('.item-skills').each(function(){
-    newWidth = $(this).parent().width() * $(this).data('percent');
-    $(this).width(0);
-    var percent = 100 - $(this).data('percent')    
-    $(this).animate({
-        width: $(this).parent().width(),
-    }, 1000);
+var players = {"mickael":"YWxleGFuZHJl\n", "anais":"bHlkaWE=\n", "nicolas":"YW5haXM=\n", "lydia":"anVsaWU=\n", "alexandre":"YXVyZWxpZW4=\n", "morgane":"em9l\n", "aurelien":"bmljb2xhcw==\n", "julie":"bWlja2FlbA==\n", "zoe":"bW9yZ2FuZQ==\n"}
 
-    $(this).css("background", "linear-gradient(90deg, #2AA6C8 "+ (100-percent).toString()+"%, #9CE3F6 0%)")
-  });
-  $('.icons-red').each(function(){
-    height = $(this).height();
-    $(this).animate({
-        height: 14,
-    }, 2000);
-  });
-};
+$(document).ready();
 
-
-$(document).ready(callback);
-
-var resize;
-window.onresize = function() {
-  clearTimeout(resize);
-  resize = setTimeout(function(){
-    callback();
-  }, 100);
-};
+$( "#reveal" ).click(function() {
+  target = $("#colFormLabelSm").val()
+  $(".target").text(atob(players[target]));
+  $('.reveal').toggle("slide:up");
+  $('.target').toggle("slide:up");
+});

@@ -99,7 +99,7 @@ DEFAULT BOX
   text-transform: uppercase;
 }
 .box h2:before{
-  content: '//';
+  content: '#';
   margin-right: 5px;
 }
 .box p{
